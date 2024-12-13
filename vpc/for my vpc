@@ -1,1 +1,15 @@
+# to create aws console  vpc which should be accessable throghout the internet we need to create steps as fallows 
 
+# create vpc -name 
+
+# attach cidr like --10.0.0.0/16
+
+# create subnet name --with attch cidr like --10.0.1.0/16
+
+# create internet gateway and attch to vpc 
+
+# edit raute table ----associate subnet to the created deafult --our vpc 
+
+# edit raoute and attch raute like -----0.0.0.0-----internet gateway  id
+
+we can not acess internet until we edit raute in raute table whihc h can e accessble throgh internet gateway
