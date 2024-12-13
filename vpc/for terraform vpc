@@ -1,0 +1,15 @@
+# create vpc resource  cidr--10.0.0.0.16
+
+# create subnet resource  cidr --10.0.0.0/20 
+
+#internet gateway 
+
+
+# raute tbale creation with cidr raute --  wuth internet gateway 0.0.0.0/0
+
+# raute table -subnet assocation --id raute table 
+
+
+
+# 
+
