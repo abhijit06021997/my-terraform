@@ -43,3 +43,8 @@ data sorces ===is used to fetch information from data without hard coading for p
 type = used to define data typelike list[string],list[number],list[map]
 
 default ===used set values like name = [webser-1", 'webser-2"]
+
+
+dynamic _blocks ===used to convert repeatedely values into dynamics blocks value like securty group there are many port for ingress[inbound],and egress[outbound] which 
+
+can we specify in dynamics blocks.
