@@ -38,6 +38,8 @@ count ==it is used to reate multple resorces from one resorce
 
 ================================================
 
+data sorces ===is used to fetch information from data without hard coading for particular ami and thus we can create instance in any region .
+
 type = used to define data typelike list[string],list[number],list[map]
 
 default ===used set values like name = [webser-1", 'webser-2"]
