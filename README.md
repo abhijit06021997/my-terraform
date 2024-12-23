@@ -63,3 +63,5 @@ $ terraform validate --is used to check our code is valid or not
 random_id ===is used to print uniq id for partucular resorce such as random password ,for bucket, any many more 
 
 just we need to copy random provider ,and specify random lentgth ,and specify partucular random resource such as bucket .
+
+remote state file (backend) ====we store remote state configuyrae file "terraform.tfstate" as a backend in created s3 bucket 
