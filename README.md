@@ -48,3 +48,6 @@ default ===used set values like name = [webser-1", 'webser-2"]
 dynamic _blocks ===used to convert repeatedely values into dynamics blocks value like securty group there are many port for ingress[inbound],and egress[outbound] which 
 
 can we specify in dynamics blocks.
+
+
+$ terraform validate --is used to check our code is valid or not
