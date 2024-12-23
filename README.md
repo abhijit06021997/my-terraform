@@ -5,8 +5,14 @@ $ terraform destroy -target="aws_instance.web"          ========it will delete s
 
 
 ===there are 4 data type numer,list,string and map 
-we use data type variable for we except particula value for particular option  for. e.g for charecter ==string  we restrict user that you input value that that you shold specify coreect value in the form of string ,list value should be according to specified vaibale  data type .
+
+we use data type variable for we except particula value for particular option  for. e.g for charecter ==string  we restrict user that you input value that that you shold specify coreect value in the form of string 
+
+,list value should be according to specified vaibale  data type .
+
+
 1)number :--used to set of number like if we specify number for.eg  instance=[1]
+
 
 
 
@@ -15,6 +21,7 @@ we use data type variable for we except particula value for particular option  f
 type =list(string)    e.g ==instance name [abk,asb,and]
 
 3)==string :-it is used for charecter where you specify charecter in variable .
+
 ===type =list(number) ===> it is used for list of number whee you specify multple numer of list e.g instance =[1,2,3]
 
 4)==map ==it use to specify key with value for .e.g we specify multple variable  which can be string ,numbe,list with any value .
@@ -51,3 +58,8 @@ can we specify in dynamics blocks.
 
 
 $ terraform validate --is used to check our code is valid or not
+
+==============================
+random_id ===is used to print uniq id for partucular resorce such as random password ,for bucket, any many more 
+
+just we need to copy random provider ,and specify random lentgth ,and specify partucular random resource such as bucket .
