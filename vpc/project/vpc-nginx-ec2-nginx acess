@@ -1,1 +1,11 @@
 
+# requrnments 
+== 1)ec2 instance   --->
+---user data for nginx >>
+2)security groups to acess nginx 
+
+== vpc -public acess 
+
+==nginx  comfiguration 
+
+==
