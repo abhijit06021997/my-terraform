@@ -1,11 +1,11 @@
-output "instance_public_ip" {
+output "public_ip" {
   description = "for my public ip print"
-  value       = aws_instance.my_instance.public_ip
+  value       = aws_instance.ec2.public_ip
 
 }
 
-output "instance_url" {
+output "instace_id" {
 
   description = "for my public ip url"
-  value       = "http://${aws_instance.my_instance.public_ip}"
+  value       = aws_instance.ec2.id
 }
