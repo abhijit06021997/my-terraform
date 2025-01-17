@@ -5,9 +5,10 @@ resource "aws_vpc" "my-vpc" {
   }
 }
 
-resource "aws_subnet" "my-subne-pub" {
-  vpc_id     = aws_vpc.my-vpc.id
-  cidr_block = "10.0.1.0/24"
+resource "aws_subnet" "my-subnet-pub" {
+  vpc_id                  = aws_vpc.my-vpc.id
+  cidr_block              = "10.0.1.0/24"
+  map_public_ip_on_launch = true
   tags = {
     name = "mysubnet"
   }
@@ -30,11 +31,9 @@ resource "aws_route_table" "myroute-table" {
   }
 }
 
-resource "aws_route_table_association" "route-table-association" {
+
+  resource "aws_route_table_association" "a" {
+  subnet_id      = aws_subnet.my-subnet-pub.id
   route_table_id = aws_route_table.myroute-table.id
-  subnet_id      = aws_subnet.my-subne-pub.id
-
 }
-
-
 
