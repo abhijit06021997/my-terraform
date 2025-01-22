@@ -65,3 +65,6 @@ random_id ===is used to print uniq id for partucular resorce such as random pass
 just we need to copy random provider ,and specify random lentgth ,and specify partucular random resource such as bucket .
 
 remote state file (backend) ====we store remote state configuyrae file "terraform.tfstate" as a backend in created s3 bucket 
+====================================================================================================================================================================================================================
+data sources: -data sorces is used to create  resorces baesed on existed resoreses or ifrastructure whihch is exist in industry and based on that resoreses we create another resoreses 
+for e.g thier is created vpc ,and if company higher us for creating instance based on that vpc ,and based on that vpcwe will filetr inforamtion about vpc and we will creare instances inside the vpc 
