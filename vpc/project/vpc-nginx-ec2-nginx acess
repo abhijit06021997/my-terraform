@@ -9,3 +9,11 @@
 ==nginx  comfiguration 
 
 ==
+project vpc+ec2+nginx+http acess+public ip output ==associte public ip to access \
+
+requrnments=
+1)vpc with public and private acess
+2)instance with in same subnet 
+3)setup nginx-with user_date==>instanle caommd via scrript 
+4)create security group ingress and egress within vpc id and attach it to the instance this vp id 
+5)output for acessing nginx or url for public ip 
